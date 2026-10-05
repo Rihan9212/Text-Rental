@@ -5,16 +5,20 @@ import Vehicles from './pages/user/Vehicles'
 import MyBooking from './pages/user/MyBooking'
 import Contact from './pages/user/Contact'
 import Dashboard from './pages/admin/Dashboard'
-import MangeBookings from './pages/admin/MangeBookings'
+import MangeBookings from './pages/admin/ManageBookings.jsx'
 import ManageVehicles from './pages/admin/ManageVehicles'
-import MangeDrivers from './pages/admin/MangeDrivers'
+import MangeDrivers from './pages/admin/ManageDrivers.jsx'
+import Navbar from './components/Navbar.jsx'
+import Login from './pages/auth/Login.jsx'
+import Register from './pages/auth/Register.jsx'
 
 
 const App = () => {
   return (
     <>
+     <Navbar/>
     <Routes>
-
+      
       {/* users */}
         <Route path='/' element={<Home/>} />
         <Route path='/vehicles' element={<Vehicles/>} />
@@ -28,6 +32,9 @@ const App = () => {
         <Route path='/manage-vehicles' element={<ManageVehicles/>} />
         <Route path='/mange-driver' element={<MangeDrivers/>} />
 
+        {/* auth */}
+        <Route path='/login' element={<Login/>} />
+        <Route path='/register' element={<Register/>} />
 
 
 
