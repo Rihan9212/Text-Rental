@@ -21,6 +21,46 @@ const Footer = () => {
         <p>Luxary car rental</p>
         <p>Luxary car rental</p>
       </div>
+      <div className="flex justify-center
+       uppercase gap-4">
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+      </div>
+      <div className="flex justify-center
+       uppercase gap-4">
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+      </div>
+      <div className="flex justify-center
+       uppercase gap-4">
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+      </div>
+      <div className="flex justify-center
+       uppercase gap-4">
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+      </div>
+      <div className="flex justify-center
+       uppercase gap-4">
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+        <p>Luxary car rental</p>
+      </div>
     </div>
   )
 }
