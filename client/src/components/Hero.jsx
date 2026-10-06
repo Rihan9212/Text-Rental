@@ -3,7 +3,7 @@ import assets from "../assets/assets"
 const Hero = () => {
   return (
     <div>
-      <img src={assets.hero} alt="" />
+      <img className="" src={assets.hero} alt="" />
     </div>
   )
 }

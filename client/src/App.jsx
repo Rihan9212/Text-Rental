@@ -11,6 +11,7 @@ import MangeDrivers from './pages/admin/ManageDrivers.jsx'
 import Navbar from './components/Navbar.jsx'
 import Login from './pages/auth/Login.jsx'
 import Register from './pages/auth/Register.jsx'
+import Footer from './components/Footer.jsx'
 
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
 
 
     </Routes>
+    <Footer/>
     
     
     </>
