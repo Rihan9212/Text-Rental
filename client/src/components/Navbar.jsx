@@ -18,6 +18,15 @@ export default function Navbar() {
           TaxiRental
         </Link>
 
+        <div className="flex gap-4">
+         <Link to="/"><p className="hover:text-amber-400">Home</p></Link> 
+         <Link to="about"><p className="hover:text-amber-400">about</p></Link> 
+         <Link to="vehicles"><p className="hover:text-amber-400">vehicles</p></Link> 
+         <Link to="contact"><p className="hover:text-amber-400">contact</p></Link> 
+         <Link to="about"><p className="hover:text-amber-400">about</p></Link> 
+        
+        </div>
+
         <div className="flex items-center gap-4 text-sm">
           <Link to="/vehicles" className="hover:text-yellow-400">Vehicles</Link>
 
