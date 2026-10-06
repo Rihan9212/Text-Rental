@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Hero from "../../components/Hero";
 
 export default function Home() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-20 text-center">
-      
+      <Hero/>
       <h1 className="text-4xl font-bold text-gray-900">Book Your Ride Easily</h1>
       <p className="mt-4 text-gray-600">Cars, vans and tuk-tuks for any trip.</p>
       <Link

@@ -1,7 +1,10 @@
+import assets from "../assets/assets"
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+      <img src={assets.hero} alt="" />
+    </div>
   )
 }
 
